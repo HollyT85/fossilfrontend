@@ -22,14 +22,8 @@ const NavBar = () => {
 
     const loggedInIcons = (
         <>
-            <NavLink to="/blog">
-                Blog
-            </NavLink>
             <NavLink to="/rocks">
                 Rocks
-            </NavLink>
-            <NavLink to="/blog/create">
-                Add Post
             </NavLink>
             <NavLink to="/rocks/add">
                 Add Rock
@@ -45,9 +39,6 @@ const NavBar = () => {
     
     const loggedOutIcons = (
         <>
-            <NavLink to="/blog">
-                Blog
-            </NavLink>
             <NavLink to="/rocks">
                 Rocks
             </NavLink>
